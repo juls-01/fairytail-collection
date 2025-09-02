@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fairy Tail Seasons and Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6); /* adjust opacity */
+            z-index: -1;
+        }
+
+        h1 {
+            color: #e50914;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+        }
+
+        /* Featured Section*/
+        .featured-tile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 900px;
+            background: rgba(0,0,0,0.75);
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+            text-align: left;
+        }
+
+        .featured-tile img {
+            width: 250px;
+            border-radius: 10px;
+            margin-right: 20px;
+            transition: transform 0.3s;
+        }
+
+        .featured-tile img:hover {
+            transform: scale(1.05);
+        }
+
+        .featured-info h2 {
+            margin: 0 0 10px;
+            color: #e50914; /* Netflix red */
+        }
+
+        .featured-info p {
+            margin: 0 0 10px;
+            color: #ddd;
+        }
+
+        .featured-info a {
+            display: inline-block;
+            background: #e50914;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .featured-info a:hover {
+            background: #b20710;
+        }
+
+        /* Table Styles */
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: rgba(255,255,255,0.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 10px;
+            color: #e50914;
+        }
+        td {
+            border: 1px solid #222;
+            padding: 15px;
+            width: 180px;
+            text-align: center;
+            vertical-align: top;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background: #111;
+            color: #fff;
+        }
+        td:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 15px rgba(229,9,20,0.5);
+            border: 1px solid #e50914;
+            background-color: #1a1a1a;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+            transition: transform 0.3s;
+        }
+        td:hover img {
+            transform: scale(1.05);
+        }
+        td p {
+            margin: 8px 0 0 0;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        a {
+            text-decoration: none;
+            color: #e50914;
+            font-size: 0.85em;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Fairy Tail Seasons and Movies</h1>
+
+    <!-- Featured  Tile -->
+    <div class="featured-tile">
+        <img src="images/featured2.jpg" alt="Fairy Tail Featured Poster">
+        <div class="featured-info">
+            <h2>Fairy Tail: Featured Highlight</h2>
+            <p>Experience the magic, friendship, and battles of Fairy Tail in this legendary anime journey.</p>
+            <a href="https://en.wikipedia.org/wiki/Fairy_Tail" target="_blank">More Info</a>
+        </div>
+    </div>
+
+    <table>
+        <caption>Fairy Tail Anime Collection</caption>
+        <tr>
+            <td>
+                <img src="images/FS1.png" alt="Fairy Tail Season 1 Poster">
+                <p>Season 1 (2009–2010)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_1)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS2.png" alt="Fairy Tail Season 2 Poster">
+                <p>Season 2 (2010–2011)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_2)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS3.png" alt="Fairy Tail Season 3 Poster">
+                <p>Season 3 (2011)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_3)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS4.png" alt="Fairy Tail Season 4 Poster">
+                <p>Season 4 (2011–2012)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_4)" target="_blank">Info</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="images/FS5.png" alt="Fairy Tail Season 5 Poster">
+                <p>Season 5 (2012)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_5)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS6.png" alt="Fairy Tail Season 6 Poster">
+                <p>Season 6 (2012–2013)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_6)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS7.png" alt="Fairy Tail Season 7 Poster">
+                <p>Season 7 (2014–2015)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_7)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/FS8.png" alt="Fairy Tail Season 8 Poster">
+                <p>Season 8 (2016)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_8)" target="_blank">Info</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="images/FS9.png" alt="Fairy Tail Final Season Poster">
+                <p>Final Season (2018–2019)</p>
+                <a href="https://en.wikipedia.org/wiki/List_of_Fairy_Tail_episodes_(season_9)" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/F100.jpg" alt="Fairy Tail 100 Years Quest Poster">
+                <p>100 Years Quest (2024-2025)</p>
+                <a href="https://en.wikipedia.org/wiki/Fairy_Tail:_100_Years_Quest#/media/File:Fairy_Tail_100_Years_Quest,_Vol_1.jpg" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/M1.png" alt="Fairy Tail Phoenix Priestess Poster">
+                <p>Phoenix Priestess (2012)</p>
+                <a href="https://en.wikipedia.org/wiki/Fairy_Tail_the_Movie:_Phoenix_Priestess" target="_blank">Info</a>
+            </td>
+            <td>
+                <img src="images/M2.png" alt="Fairy Tail Dragon Cry Poster">
+                <p>Dragon Cry (2017)</p>
+                <a href="https://en.wikipedia.org/wiki/Fairy_Tail:_Dragon_Cry" target="_blank">Info</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
